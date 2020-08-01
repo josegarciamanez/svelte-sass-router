@@ -31,11 +31,6 @@
      </nav>
      <div>
           <Route path="about" component={About} />
-          <!--for now the router just support case sensitive,
-        one workaround colud be add two time the route
-        Example.
-       <Route path="About" component="{About}" /> 
-    -->
           <Route path="/">
                <Home />
           </Route>
