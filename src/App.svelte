@@ -4,6 +4,8 @@
      import About from './pages/About.svelte';
      export let url = ''; //This property is necessary declare to avoid ignore the Router
      import Button from './Button.svelte';
+     export const router = null;
+     export const router = null;
 
      let src =
           'https://openexpoeurope.com/wp-content/uploads/2019/09/svelte-logo.png';
@@ -30,7 +32,9 @@
           <Link to="about">About</Link>
      </nav>
      <div>
-          <Route path="about" component={About} />
+          <Route path="about">
+               <About />
+          </Route>
           <Route path="/">
                <Home />
           </Route>

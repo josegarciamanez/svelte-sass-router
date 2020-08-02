@@ -1,5 +1,6 @@
 <script>
      let pageName = 'About Page';
+     
 </script>
 
 <style>
