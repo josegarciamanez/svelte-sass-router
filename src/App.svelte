@@ -5,7 +5,6 @@
      export let url = ''; //This property is necessary declare to avoid ignore the Router
      import Button from './Button.svelte';
      export const router = null;
-     export const router = null;
 
      let src =
           'https://openexpoeurope.com/wp-content/uploads/2019/09/svelte-logo.png';
